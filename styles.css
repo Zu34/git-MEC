@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    text-align: center; /* Center text globally */
+}
+
+/* Card Section */
+.card-section {
+    padding: 20px;
+}
+
+.card-container {
+    display: inline-block; /* Allow card containers to be inline */
+    width: 100%; /* Full width for each container */
+    margin-bottom: 20px; /* Space between containers */
+}
+
+/* Individual Card Styles */
+.card {
+    display: inline-block; /* Make cards inline elements */
+    width: 200px; /* Set width for the cards */
+    margin: 10px; /* Add margin to create gaps */
+    background-color: #ffd968; /* Card background color */
+    padding: 20px; /* Inner padding for the card content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Optional styling for card headings and paragraphs */
+.card h3 {
+    margin: 0 0 10px 0; /* Margin for the heading */
+}
+
+.card p {
+    margin: 0; /* Reset paragraph margin */
+}
